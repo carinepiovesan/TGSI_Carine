@@ -1,0 +1,130 @@
+\begin{thebibliography}{10}
+
+\bibitem{Blauth}
+Paulo~Menezes Blauth.
+\newblock {\em Linguagens Formais e Autômatos}.
+\newblock Artmed Editora SA, 2010.
+
+\bibitem{AcessibilidadeBrasil}
+BRASIL.
+\newblock {Decreto lei 5296 -- Regulamenta as Leis nos 10.048, de 8 de novembro
+  de 2000 e 10.098, de 19 de dezembro de 2000}.
+\newblock {\em Di\'ario Oficial da Uni\~ao}, dec 2004.
+\newblock Dispon\'vel em
+  http://www.planalto.gov.br/ccivil\_03/\_ato2004-2006/2004/decreto/d5296.htm
+  Acesso em: 25 de Mar\c{c}o de 2015.
+
+\bibitem{Caldwell}
+Reid L. G. Cooper~M. Caldwell, B. and G.~Vanderheiden.
+\newblock Web content accessibility guidelines (wcag) 2.0. w3c recommendation,
+  w3c, 2008.
+\newblock Dispon\'ivel em http://www.w3.org/TR/WCAG20/ Acesso em: 20 de
+  Mar\c{c}o de 2015.
+
+\bibitem{Card}
+Moran T. P. Newell~A. Card, K.~D.
+\newblock {\em The Psychology of Human Computer Interaction}.
+\newblock Lawrence Erlbaum Associates, 1983.
+
+\bibitem{IBGE}
+Instituto~Brasileiro de~Geografia~e Estatística.
+\newblock Acesso à internet e posse de telefone móvel celular para uso pessoal,
+  2013.
+\newblock Dispon\'ivel em
+  http://www.ibge.gov.br/home/estatistica/populacao/acessoainternet/ Acesso em:
+  01 de Junho de 2015.
+
+\bibitem{LAI}
+Governo Federal.
+\newblock Lai: A lei de acesso à informação., 2008.
+\newblock Dispon\'ivel em
+  http://www.acessoainformacao.gov.br/assuntos/conheca-seu-direito/a-lei-de-acesso-a-informacao
+  Acesso em: 26 de Maio de 2015.
+
+\bibitem{Freire}
+André~Pimenta Freire.
+\newblock Acessibilidade no desenvolvimento de sistemas web: um estudo sobre o
+  cen\'ario brasileiro.
+\newblock Master's thesis, Universidade S\~ao Paulo- S\~ao Carlos, 2008.
+
+\bibitem{eMAG}
+Ana Elisa Dourado~Salina Gabriel, César~Gonçalves do~Bomfim, Edson
+  Santos~Martins Leite, Fernanda~Hoffmann Lobato, and Higo~Gomes Mesquita.
+\newblock Modelo de acessibilidade em governo eletrônico emag.
+\newblock {\em eMAG Modelo de Acessibilidade em Governo Eletrônico}, 2014.
+\newblock Dispon\'ivel em http://emag.governoeletronico.gov.br/ Acesso em: 25
+  de Mar\c{c}o de 2015.
+
+\bibitem{Gomes}
+Vianna P.H. Carvalho D. Pazuch S.S. Lorini A. Carvalho D. Steffens~R. Gomes, J.
+\newblock An\'alise de acessibilidade aplicada ao website da universidade
+  federal de santa maria.
+\newblock {\em Encontro Anual da Tecnologia da Informação}, 2014.
+
+\bibitem{WAI}
+Shawn~Lawton Henry and Michael Duffy.
+\newblock Essential components of web accessibility.
+\newblock {W3C} recommendation, W3C, August 2005.
+\newblock Dispon\'ivel em http://www.w3.org/WAI/intro/components.php Acesso em:
+  20 de Mar\c{c}o de 2015.
+
+\bibitem{WAI/W3C}
+Shawn~Lawton Henry, participants of~the Education, and Outreach~Working Group.
+\newblock Introduction to web accessibility.
+\newblock {W3C} recommendation, W3C, September 2005.
+\newblock Dispon\'ivel em http://www.w3.org/WAI/intro/accessibility.php Acesso
+  em: 20 de Mar\c{c}o de 2015.
+
+\bibitem{Hewett}
+Baecker R. Card S. Carey T. Gasen J. Mantei M. Perlman G. Strong G. Verplank~W.
+  Hewett, T.~T.
+\newblock Acm sigchi curricula for human-computer interaction, 1992.
+\newblock Dispon\'ivel em: http://old.sigchi.org/cdg/ Acesso em: Mar\c{c}o de
+  2015.
+
+\bibitem{Jazayeri}
+Mehdi Jazayeri.
+\newblock Some trends in web application development.
+\newblock {\em Future of Software Engineering, 2007. FOSE '07}, 2007.
+
+\bibitem{Barbosa}
+Simone Barbosa~Diniz Junqueira and Bruno~Santana da~Silva.
+\newblock {\em Intera\c{c}\~ao Humano-Computador}.
+\newblock Elsevir Editora Ltda, 2010.
+
+\bibitem{Kelly}
+Sloan D. Brown S. Petrie H. Lauke P. Ball S. Seale~J. Kelly, B.
+\newblock Accessibility 2.0: People, policies and processes.
+\newblock {\em ACM}, 2007.
+
+\bibitem{Lucca}
+Fasolino A. R. Tramontana~P. Lucca, Di~G.A.
+\newblock Web site accessibility: Identifying and fixing accessibility problems
+  in client page code.
+\newblock {\em Web Site Evolution. Seventh IEEE International Symposium on.},
+  2005.
+
+\bibitem{Melo}
+Amanda~Meincke Melo.
+\newblock {\em Livro dos Tutoriais do XIII Simpósio Brasileiro sobre Fatores
+  Humanos em Sistemas Computacionais}.
+\newblock Sociedade Brasileira de Computação - SBC, 2014.
+
+\bibitem{Baranauskas}
+M.~C. C. Bonilha F. F.~G. Melo A.~M., Baranauskas.
+\newblock Avalia\c{c}\~ao de acessibilidade na web com a participa\c{c}\~ao do
+  usu\'ario - um estudo de caso.
+\newblock {\em VI Simp\'osio sobre Fatores Humanos em Sistemas Computacionais -
+  Mediando e Transformando o Cotidiano}, 2004.
+
+\bibitem{Pressman}
+Pressman R.
+\newblock What a tangled web we have.
+\newblock {\em IEEE Software}, 2000.
+
+\bibitem{Torres}
+Mazzoni Alberto Angel Alves João Bosco da~Mota Torres, Elisabeth~Fátima.
+\newblock A acessibilidade à informação no espaço digital.
+\newblock {\em Scielo}, 2002.
+
+\end{thebibliography}

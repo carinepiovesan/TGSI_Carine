@@ -1,0 +1,162 @@
+%%% Versao 1.0
+%%% Data: Abril de 2015
+%%% Autor: Cristiano Bertolini
+
+%%% Definicao da classe para a proposta e artigo no padrao SBC
+\documentclass[12pt,a4paper]{article}
+\usepackage{upquote}
+\usepackage{color}
+\usepackage{graphicx,url}
+\usepackage{graphicx}
+\usepackage{hyperref} 
+\usepackage{authblk}
+\usepackage{fancyhdr}
+\usepackage[brazil]{babel}   
+\usepackage[T1]{fontenc}  
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+%\usepackage[utf8]{inputenc}
+\usepackage{datetime} 
+\usepackage{textcomp} 
+ 
+%\usepackage{hyperref}
+\usepackage[latin1]{inputenc}
+%\input{macros.tex}  
+
+%%%------------------SBC-ARTIGO--------------------------
+%%% Pacote com o padrao SBC
+\usepackage{sbc-template}
+\usepackage{listings}
+\renewcommand{\lstlistingname}{Algoritmo}
+
+% CSS
+\lstdefinelanguage{CSS}{
+keywords={color,background-image:,margin,padding,font,weight,display,position,top,left,right,bottom,list,style,border,size,white,space,min,width,
+transition:, transform:, transition-property, transition-duration,
+transition-timing-function},
+sensitive=true,
+morecomment=[l]{//},
+morecomment=[s]{/*}{*/},
+morestring=[b]',
+morestring=[b]",
+alsoletter={:},
+alsodigit={-}
+}
+
+% JavaScript
+\lstdefinelanguage{JavaScript}{
+morekeywords={typeof, new, true, false, catch, function, return,
+null, catch, switch, var, if, in, while, do, else, case, break},
+morecomment=[s]{/*}{*/},
+morecomment=[l]//,
+morestring=[b]",
+morestring=[b]'
+}
+
+\lstdefinelanguage{HTML5}{
+language=html,
+sensitive=true,
+alsoletter={<>=-},
+morecomment=[s]{<!-}{-->},
+tag=[s],
+otherkeywords={
+% General
+>,
+% Standard tags
+<!DOCTYPE,
+</html, <html, <head, <title, </title, <style, </style, <link,
+</head, <meta, />,
+% body
+</body, <body,
+% Divs
+</div, <div, </div>,
+% Paragraphs
+</p, <p, </p>,
+% scripts
+</script, <script,
+% More tags...
+<canvas, /canvas>, <svg, <rect, <animateTransform, </rect>, </svg>,
+<video, <source, <iframe, </iframe>, </video>, <image, </image>
+},
+ndkeywords={
+% General
+=,
+% HTML attributes
+charset=, src=, id=, width=, height=, style=, type=, rel=, href=,
+% SVG attributes
+fill=, attributeName=, begin=, dur=, from=, to=, poster=, controls=,
+x=, y=, repeatCount=, xlink:href=,
+% CSS properties
+margin:, padding:, background-image:, border:, top:, left:,
+position:, width:, height:,
+% CSS3 properties
+transform:, -moz-transform:, -webkit-transform:,
+animation:, -webkit-animation:,
+transition:, transition-duration:, transition-property:,
+transition-timing-function:,
+}
+}
+
+\lstset{%
+% Basic design
+% backgroundcolor=\color{lightgray},
+basicstyle={\small\ttfamily},
+frame=l,
+% Line numbers
+xleftmargin={0.75cm},
+numbers=left,
+stepnumber=1,
+firstnumber=1,
+numberfirstline=true,
+% Code design
+identifierstyle=\color{black},
+keywordstyle=\color{blue}\bfseries,
+ndkeywordstyle=\color{green}\bfseries,
+ stringstyle=\color{red}\ttfamily,
+commentstyle=\color{darkgray}\ttfamily,
+% Code
+language={HTML5},
+tabsize=2,
+showtabs=false,
+showspaces=false,
+captionpos=b,
+showstringspaces=false,
+extendedchars=true,
+breaklines=true
+}
+
+
+%%%% Titulo, autores e identificacao no padrao SBC
+\input{secoes-artigo/identificacao.tex} 
+%%%------------------SBC-ARTIGO-------------------------- 
+
+\begin{document}
+
+%%% Para o artigo vc deve incluir o comando abaixo
+\maketitle 
+
+%%%-----------------------------------%% BEGIN ARTIGO
+% \input{secoes-artigo/abstract.tex} 
+ \input{secoes-artigo/resumo.tex} 
+ \input{secoes-artigo/introducao.tex}
+ \input{secoes-artigo/referencialTeorico.tex}
+ \input{secoes-artigo/processoDeClassificacao.tex}
+ \input{secoes-artigo/geracaoDeRegrasDeAcessibilidade.tex} 
+ \input{secoes-artigo/RegrasGeradas.tex} 
+ \input{secoes-artigo/estudodecaso.tex}
+ \input{secoes-artigo/trabalhosRelacionados.tex} 
+ \input{secoes-artigo/conclusoes.tex} 
+    
+ 
+%%%%-----------------------------------%% END ARTIGO
+  
+%%% Referencias bibliograficas no padrao da SBC
+\bibliographystyle{plain} %plain
+
+%%% Referencias bibliograficas no padrao da IEEE
+%\bibliographystyle{IEEEtran}
+ 
+%%% Nome do arquivo .bib contendo as suas referencias bibliograficas
+\bibliography{carine} 
+
+\end{document}
