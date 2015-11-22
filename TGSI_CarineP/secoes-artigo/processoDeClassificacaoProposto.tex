@@ -1,0 +1,125 @@
+\section{Processo de Classificação Proposto}
+\label{sec:processoDeClassificacaoProposto}
+
+
+Foi proposto um processo de classificação que visa dividir as recomendações
+em duas categorias sendo elas: sintática e semântica. A categoria sintática contará com
+as regras que poderão ser verificadas ao máximo possível automaticamente, sem
+interferência de testes humanos, enquanto que a categoria semântica
+por sua vez necessitará de testes humanos.
+
+\begin{figure}[!h]
+\centering 
+\includegraphics[scale=0.7]{figuras/processo3.jpg}  
+\caption{Processo de Classificação Proposto}
+\label{figura1}
+\end{figure} 
+
+A Figura~\ref{figura1} apresenta o modelo proposto para o processo de
+classificação das recomendações de acessibilidade web. Este processo pode ser
+considerado genérico, pois o mesmo pode ser aplicado a todos os websites, visto
+que o mesmo tem o objetivo de realizar a verificação de acessibilidade web.  As
+etapas do processo são:
+
+\begin{itemize}
+  
+  \item \textbf{Identificação das Recomendações de Acessibilidade Web:} serão
+  identificadas as recomendações de acessibilidade web descritas pelo E-MAG.
+  
+  \item \textbf{Classificação das Recomendações:} consiste na análise de cada
+  recomendação e a divisão das mesmas em duas partes que são elas regras
+  semânticas e regras sintáticas, essas regras formam um padrão para a
+  classificação no quesito de acessibilidade web.
+  
+  \item \textbf{Regras Semânticas:} as regras semânticas tratam do significado
+  da estrutura de código, o que verifica se o código esta funcionando
+  corretamente, mas não se esta escrito na forma correta.
+  
+  \item \textbf{Testes Manuais:} as regras semânticas necessitam de testes e
+  correções com intervenção humana, já que possuem um grande nível de
+  complexidade na sua implementação.
+  
+   \item \textbf{Regras Sintáticas:} as regras sintáticas tratam da escrita e da
+  validação dos códigos HTML e CSS, a fim de verificar se os elementos do
+  código estão sendo utilizadas para sua verdadeira finalidade.
+  
+   \item \textbf{Geração das Regras de Acessibilidade Web:} para cada
+  recomendação de acessibilidade existente analisada e possível de
+  implementação, serão geradas as regras.
+  
+  \item \textbf{Testes Automatizados:} as regras sintáticas podem ser
+  automatizadas, ou seja, podem ser verificadas pelas ferramentas de
+  verificação de acessibilidade e validação de códigos HTML e CSS, sendo que
+  verificam se o código esta sendo utilizado de forma correta.
+  
+\end{itemize}
+
+
+
+O Algoritmo~\ref{code1} apresenta um exemplo de código HTML onde
+sintaticamente é possível verificar a recomendação
+N\textsuperscript{\underline{o}} 1 do EMAG referente à Marcação, que diz o
+seguinte: \emph{Respeitar os Padrões de Desenvolvimento Web}, baseada nos
+critérios de Sucesso 4.1.1 e 4.1.2 do WCAG. Esta
+recomendação chama a atenção para a declaração correta do DOCTYPE dos documentos
+HTML e XHTML sendo que o mesmo informa qual a  versão do HTML esta sendo
+utilizada, informação preciosa para que as ferramentas de validação possam
+realizar a análise e indicar as correções.
+
+\begin{lstlisting}[caption={Exemplo de DOCTYPE em HTML},label=code1]
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="pt-BR">
+<head> 
+<title>Exemplo de DOCTYPE em HTML 4.01</title> 
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+\end{lstlisting}
+
+Esta recomendação que estabelece o respeito aos padrões web pode ser
+considerada uma recomendação capaz de gerar várias regras, considerando a
+existência de vários padrões de desenvolvimento para cada tecnologia. Isso
+envolve codificar as páginas web de acordo com as especificações técnicas de
+cada tecnologia, de modo que as páginas produzidas possam ser interpretadas adequadamente.
+
+Na versão do HTML 5 não é necessária a declaração da sua versão, 
+porém há a necessidade da declaração do DOCTYPE, permitindo que as 
+ferramentas de verificação e validação identifiquem o tipo de documento
+analisado. Baseado no Algoritmo~\ref{code1}, o mesmo não seria acessível caso
+as linhas 1 e 2 não estivessem escritas. No entanto, considerando apenas as
+linhas 3 a 7, funcionariam normalmente possibilitando o acesso à qualquer
+pessoa sem necessidades especiais.
+ 
+Esta recomendação é de nível de prioridade A, ou seja, os desenvolvedores devem
+atendê-la para que as tecnologias de apoio possam fazer a interpretação correta
+das informações da página web. Caso as declarações não estejam corretas as
+tecnologias de apoio correm o risco de não interpretar o conteúdo ali existente
+ou fazer a interpretação incorreta passando aos usuários informações não confiáveis.
+
+Um exemplo de classificação semântica é a recomendação N\textsuperscript{\underline{o}} 20
+do E-MAG, representada pelo Algoritmo~\ref{code2}:  \emph{Fornecer alternativa em
+texto para imagens do web site}, baseado nos Critérios de Sucesso 1.1.1 do WCAG.
+O texto alternativo, como o nome já diz, é uma alternativa aos elementos
+não-textuais de uma página web. A utilização correta desta recomendação, não
+depende unicamente do conhecimento de código e da utilização de ferramentas
+mas sim do conhecimento humano, sensibilidade e interpretação pessoal do
+profissional que inseriu a imagem na página. Atualmente os sistemas e 
+leitores de tela não têm a capacidade de interpretar imagens no contexto da
+página web, por isso é necessário que os textos alternativos permitam, por
+exemplo, a tradução do conteúdo da imagem pelos leitores de tela utilizados por
+pessoas portadoras de deficiência visual.
+
+O Algoritmo~\ref{code2} apresenta como o texto alternativo representado
+através do atributo ALT, que deve estar inserido dentro do elemento IMG.
+Toda imagem deve conter o atributo ALT mesmo que seja vazio ou nulo.
+Quando o leitor de tela encontra uma imagem sem o atributo ALT, o mesmo extrai
+informações sobre a imagem de outros lugares tais como o nome da imagem e
+localização, o que não determina a função e especificação correta da imagem.
+
+\begin{lstlisting}[caption={Exemplo de descrição às imagens},label=code2] 
+<img src="foto-porto-alegre.jpg" alt="Foto de uma bicicleta de carga verde com
+caixas laranjas encostada numa parede" />
+
+\end{lstlisting}
+
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.21)  19 NOV 2015 22:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.21)  22 NOV 2015 13:00
 entering extended mode
 **document.tex
 (C:\Users\Carine\workspace\TGSI_CarineP\document.tex
@@ -631,24 +631,23 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 40.
-
-(C:\miktex\tex\latex\psnfss\ts1ptm.fd
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 30.
+)
+(C:\Users\Carine\workspace\TGSI_CarineP\secoes-artigo/acessibilidadeweb.tex
+[2] [3]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 78.
+ (C:\miktex\tex\latex\psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 49.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 49.
- [2])
-(C:\Users\Carine\workspace\TGSI_CarineP\secoes-artigo/referencialTeorico.tex
-[3] [4]
 
-LaTeX Warning: Citation `W3C' on page 5 undefined on input line 130.
+LaTeX Warning: Citation `web' on page 4 undefined on input line 134.
 
-)
-(C:\Users\Carine\workspace\TGSI_CarineP\secoes-artigo/processoDeClassificacao.t
-ex <figuras/processo3.jpg, id=114, 500.62032pt x 295.85532pt>
+[4])
+(C:\Users\Carine\workspace\TGSI_CarineP\secoes-artigo/processoDeClassificacaoPr
+oposto.tex <figuras/processo3.jpg, id=104, 500.62032pt x 295.85532pt>
 File: figuras/processo3.jpg Graphic file (type jpg)
 
 <use figuras/processo3.jpg>
@@ -662,9 +661,9 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 14.
  [5 <C:/Users/Carine/workspace/TGSI_CarineP/figuras/processo3.jpg>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 72.
+nput line 69.
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 73.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 70.
  [6])
 (C:\Users\Carine\workspace\TGSI_CarineP\secoes-artigo/geracaoDeRegrasDeAcessibi
 lidade.tex
@@ -673,16 +672,14 @@ lidade.tex
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 3.
 
-) [7] [8])
-(C:\Users\Carine\workspace\TGSI_CarineP\secoes-artigo/RegrasGeradas.tex
-[9] [10] [11] [12] [13])
-(C:\Users\Carine\workspace\TGSI_CarineP\secoes-artigo/estudodecaso.tex
-(C:\Users\Carine\workspace\TGSI_CarineP\tabelas/tablink.tex
+) [7] [8] [9] [10] [11] [12])
+(C:\Users\Carine\workspace\TGSI_CarineP\secoes-artigo/estudodecaso.tex [13]
+(C:\Users\Carine\workspace\TGSI_CarineP\tabelas/tablink.tex)
+(C:\Users\Carine\workspace\TGSI_CarineP\tabelas/tabcasodeuso.tex
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [14] (C:\Users\Carine\workspace\TGSI_CarineP\tabelas/tabcasodeuso.tex)
-(C:\Users\Carine\workspace\TGSI_CarineP\tabelas/tabregrasadicionar.tex
+) [14] (C:\Users\Carine\workspace\TGSI_CarineP\tabelas/tabregrasadicionar.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
 ))
@@ -695,58 +692,58 @@ Underfull \hbox (badness 1571) in paragraph at lines 9--16
  []
 
 
-Underfull \vbox (badness 1331) has occurred while \output is active []
+Underfull \vbox (badness 1320) has occurred while \output is active []
 
  [17]
-Underfull \hbox (badness 5431) in paragraph at lines 30--36
+Underfull \hbox (badness 5431) in paragraph at lines 25--31
 [][]\T1/ptm/m/n/12 Instituto Bra-si-leiro de Ge-o-gra-fia e Es-ta-tís-tica.  Ac
 esso à in-ter-net e posse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 25--31
 \T1/ptm/m/n/12 de te-le-fone mó-vel ce-lu-lar para uso pes-soal, 2013.  Dis-po-
 ní-vel em
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 38--43
+Underfull \hbox (badness 3849) in paragraph at lines 33--38
 [][]\T1/ptm/m/n/12 Governo Fe-de-ral.  Lai: A lei de acesso à in-for-ma-ção., 2
 008.  Dis-po-ní-
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 65--70
+Underfull \hbox (badness 2393) in paragraph at lines 60--65
 [][]\T1/ptm/m/n/12 Shawn Law-ton Henry and Mi-chael Duffy.  Es-sen-tial com-po-
 nents of web ac-
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 65--70
+Underfull \hbox (badness 2368) in paragraph at lines 60--65
 \T1/ptm/m/n/12 ces-si-bi-lity.  W3C re-com-men-da-tion, W3C, Au-gust 2005.  Dis
 -po-ní-vel em
  []
 
 [18])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
  [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
  (C:\Users\Carine\workspace\TGSI_CarineP\document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: E9419A0F4F6A577B975089B669A502B1;614.
+(rerunfilecheck)             Checksum: 7DBB76E6B0E702F2FD3A798DCC448BCE;564.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
  ) 
 Here is how much of TeX's memory you used:
- 11374 strings out of 493921
- 159625 string characters out of 3154497
+ 11361 strings out of 493921
+ 159378 string characters out of 3154497
  314292 words of memory out of 3000000
- 14369 multiletter control sequences out of 15000+200000
+ 14362 multiletter control sequences out of 15000+200000
  49567 words of font info for 60 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  43i,11n,58p,1012b,1438s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -756,9 +753,9 @@ onts/cm/cmr8.pfb><C:/miktex/fonts/type1/urw/courier/ucrb8a.pfb><C:/miktex/fonts
 :/miktex/fonts/type1/urw/times/utmb8a.pfb><C:/miktex/fonts/type1/urw/times/utmb
 i8a.pfb><C:/miktex/fonts/type1/urw/times/utmr8a.pfb><C:/miktex/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on document.pdf (19 pages, 232232 bytes).
+Output written on document.pdf (19 pages, 230010 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 253 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

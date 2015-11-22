@@ -28,6 +28,458 @@ não puderam ser classificadas devido à grande dificuldade de interpretação e
 alto grau de complexidade, por este motivo as mesmas não serão apresentadas
 neste trabalho.
 
+\subsection{Regras Geradas}
+\label{subsec:RegrasGeradas}
+
+A partir da classificação entre sintática e semântica de cada recomendação
+existente no documento E-MAG , foi realizada a análise minuciosa e individual
+de cada recomendação conforme sua classificação e assim obtendo as regras.A
+seguir são apresentadas as recomendações com suas respectivas regras 
+sintáticas (RSin) e semânticas (RSem):
+
+\subsection*{Recomendação 1.1 Respeitar os padrões de desenvolvimento web}
+
+\begin{itemize}
+  
+\item \textbf{RSin 01 (HTML 5):} Para todo documento HTML deverá ser
+declarado a TAG <!DOCTYPE html>, onde ``!doctype'' representa o tipo e versão do documento a
+serem interpretados pelos navegadores e leitores de tela
+\end{itemize} 
+
+\begin{itemize}
+
+\item \textbf{RSin 02:} Para toda TAG <p> aberta a mesma deverá ser fechada
+logo após a inserção de seu conteúdo
+\end{itemize}
+
+\begin{itemize}
+  
+\item \textbf {RSin 03 (HTML 4.1 e anterior):} Para todo documento HTML
+em sua versão 4.1 ou anteriores além de declarar a TAG <!DOCTYPE html> deverá ser declarado a
+versão do HTML que está sendo utilizada
+\end{itemize}
+ 
+\subsection*{Recomendação 1.2 Organizar o código HTML de forma lógica e
+semântica}
+
+\begin{itemize}
+  
+\item \textbf {RSin 04:} Para toda página o código HTML deve ser
+organizado de forma lógica, apresentando os elementos de forma compreensível. Cada elemento HTML
+deve ser utilizado para o fim no qual foi criado
+\end{itemize}
+
+\subsection*{Recomendação 1.3 Utilizar corretamente os níveis de cabeçalho}
+
+\begin{itemize}
+  
+\item \textbf {RSin 05:} Para toda <h1> deverá ser atribuido o título
+principal da página
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{RSin 06:} Para toda <hx> onde x varia de 6 a 1
+deve-se sempre ter <hx-1> na sequência correta, atribuindo aos mesmos os subtítulos da página
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{RSem 01:} Títulos devem ser correspondentes ao conteúdo
+apresentado na seção e ser correspondente ao <hx> a que foi atribuido
+\end{itemize}
+
+\subsection*{Recomendação 1.4 Ordenar de forma lógica e intuitiva a leitura e
+tabulação}
+
+\begin{itemize}
+\item \textbf{RSin 07:} Para toda página deve-se organizar o código HTML com
+uma sequência lógica de leitura para percorrer links e formulários, ou seja, todas
+as tags que contenham conteúdo devem ser abertas e fechadas
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{RSem 02:} Para toda página deverá ser disponibilizado o
+bloco principal antes do bloco de menu, facilitando a navegação pelo teclado evitando que o
+usuário percorra todo o menu para enfim acessar o conteúdo da página
+\end{itemize}
+
+\subsection*{Recomendação 1.5 Fornecer âncoras para ir direto a um bloco de
+conteúdo}
+
+\begin{itemize}
+\item \textbf{RSin 08:} Para toda tag <a> deverá ser atribuído um id=
+``string'' e um name ``string''
+\end{itemize}
+ 
+\begin{itemize}
+\item  \textbf{RSem 03:} Para toda página deverá ser avaliada a
+utilização de ocultação de objetos, visto que alguns anulam a acessibilidade da página
+\end{itemize}
+
+\subsection*{Recomendação 1.6 Não utilizar tabelas para diagramação}
+
+\begin{itemize}
+\item  \textbf {RSin 09:} Para toda página o elemento <table> deve
+ser utilizado para criação de tabelas e não para diagramação da página
+\end{itemize} 
+
+\begin{itemize}
+\item  \textbf{RSem 04:} Para todo elemento <table> deverá ser
+realizado uma análise, a fim de verificar se ele esta atribuído para sua devida função
+\end{itemize}
+
+\subsection*{Recomendação 1.7 Separar links adjacentes}
+
+\begin{itemize}
+\item  \textbf{RSin 10:} Para toda tag <ul> deve-se atribuir o uso da tag <li>
+para criação de marcadores para especificação dos links através da tag <a> e o
+atributo ``href='' responsável por indicar o destino do link
+\end{itemize}
+
+
+\subsection*{Recomendação 1.8 Dividir as áreas de informação}
+
+\begin{itemize}
+\item \textbf{RSin 11:} Para toda página deve-se dividi-la por áreas
+de informação sendo as mais comuns <header> responsável pelo rodapé <article> para conteúdo
+principal e dinâmico da página e <footer> para criação de um rodapé
+\end{itemize}
+
+
+\subsection*{Recomendação 1.9 Não abrir novas instâncias sem a solicitação do
+usuário}
+
+\begin{itemize}
+\item \textbf{RSin 12:} Para todo uso do atributo <a target=``\_blank''>
+responsável por abrir links em uma nova guia, deve-se substituir pelo uso do atributo <a
+target=``\_self''> que fará com que as páginas sejam carregadas dentro da mesma
+janela
+\end{itemize}
+
+\subsection*{Recomendação 2.1 Disponibilizar todas as funções da página via
+teclado}
+
+\begin{itemize}
+\item \textbf{RSem 05:} Para toda página deve-se mapear os eventos do mouse para
+o teclado
+\end{itemize}
+
+
+\subsection*{Recomendação 2.2 Garantir que os objetos programáveis sejam
+acessíveis}
+
+\begin{itemize}
+\item  \textbf{RSin 13:} Para toda página que contenha o elemento <script>,
+deve-se usar também o elemento <noscript> para que possa ser lido mesmo que o navegador não suporte ou
+esteja com o script bloqueado
+\end{itemize}
+
+\begin{itemize}
+\item  \textbf{RSem 06:} Implementar o elemento <noscript> ou fornecer uma opção
+de habilitação do JavaScript
+\end{itemize}
+
+\subsection*{Recomendação 2.3 Não criar páginas com atualização automática
+periódica}
+
+\begin{itemize}
+\item  \textbf{RSin 14:} Para toda tag <meta http-equiv= refresh> remover o
+atributo ``http-equiv=''
+\end{itemize}
+
+\subsection*{Recomendação 2.4 Não utilizar redirecionamento automático de
+páginas}
+
+\begin{itemize}
+\item  \textbf{RSin 15:} Para toda tag <meta http-equiv= refresh> remover o
+atributo ``http-equiv=''
+\end{itemize}
+
+%\subsection*{Recomendação 2.5 Fornecer alternativa para modificar limite de
+% tempo} (não classificada)
+
+\subsection*{Recomendação 2.6 Não incluir situações de intermitência de tela}
+
+\begin{itemize}
+\item  \textbf{RSem 07:} Para toda página não devem ser utilizados efeitos
+visuais piscantes, intermitentes ou cintilantes. Aplicando-se também em relação a
+propagandas de terceiros
+\end{itemize}
+
+%\subsection*{Recomendação 2.7 Assegurar o controle do usuário sobre as
+% alterações temporais do conteúdo} (não classificada)
+
+\subsection*{Recomendação 3.1 Identificar o idioma principal da página}
+
+\begin{itemize}
+\item  \textbf{RSin 16:} Para toda tag <HTML> deverá identificar-se o idioma
+transformando para <HTML lang= ``string idioma''>, onde ``string idioma''
+representa o idioma correspondente da página
+\end{itemize}
+
+\begin{itemize}
+\item  \textbf{RSem 08:} Deve-se analisar o idioma definido e o idioma do texto
+esta sendo inserido na página
+\end{itemize}
+
+\subsection*{Recomendação 3.2 Informar mudança de idioma no conteúdo}
+
+\begin{itemize}
+\item  \textbf{RSem 09:} Para toda mudança de idioma, deverá ser adicionado o
+atributo <lang= ``x''>
+\end{itemize}
+
+\subsection*{Recomendação 3.3 Oferecer um título descritivo e informativo à
+página}
+
+\begin{itemize}
+\item  \textbf{RSin 17:} Para todo título existente na página deverá
+ser utilizado o elemento <title>
+\end{itemize}
+
+\begin{itemize}
+\item  \textbf{RSem 10:} Para todo elemento <title> deverá ser
+atribuído um texto descritivo e informativo sobre o conteúdo principal da página
+\end{itemize}
+
+%\subsection*{Recomendação 3.4 Informar o usuário sobre sua localização na
+%página} 
+%(não classificada)
+
+\subsection*{Recomendação 3.5 Descrever links clara e sucintamente}
+
+\begin{itemize}
+\item  \textbf{RSem 11:} Para toda página deverá identificar-se claramente o destino
+dos links, e a descrição dos mesmos. Arquivos disponíveis para download também devem
+conter uma descrição informando a extensão e tamanho do mesmo
+\end{itemize}
+
+\subsection*{Recomendação 3.6 Fornecer alternativa em texto para imagens do
+sítio}
+
+\begin{itemize}
+\item  \textbf{RSin 18:} Para toda imagem existente na página, a mesma deverá
+conter uma descrição atribuída ao elemento <alt>
+\end{itemize}
+
+\begin{itemize}
+\item  \textbf{RSin 19:} Para toda página em HTML5 deve-se utilizar os elementos
+<figure> e <figcaption> definindo respectivamente um bloco de conteúdo e legenda
+para a imagem
+\end{itemize}
+
+\begin{itemize}
+\item  \textbf{RSem 12:} Para toda imagem deverá ser analisado o texto
+correspondente à sua descrição
+\end{itemize}
+
+\subsection*{Recomendação 3.7 Utilizar mapas de imagem de forma acessível}
+
+\begin{itemize}
+\item  \textbf{RSem 13:} Para todas as imagens divididas em áreas deverá ser
+utilizado o elemento <area>, onde cada área receberá o link correspondente à sua página
+\end{itemize}
+
+\subsection*{Recomendação 3.8 Disponibilizar documentos em formatos acessíveis}
+
+\begin{itemize}
+\item  \textbf{RSem 14:} Para toda página que disponibilize documentos, estes
+devem estar em formato acessível e disponível para download em formato ODF. Deve-se
+também disponibilizar a versão em HTML
+\end{itemize}
+
+\subsection*{Recomendação 3.9 Em tabelas, utilizar títulos e resumos de forma
+apropriada}
+
+\begin{itemize}
+\item  \textbf{RSin 20:} Para toda tag <table> posteriormente deverá ser
+adicionado o elemento <caption=``string''>
+\end{itemize}
+
+\begin{itemize}
+\item  \textbf{RSem 15:} Definir o conteúdo a ser inserido no caption
+\end{itemize}
+
+\begin{itemize}
+\item  \textbf{RSem 16:} Declaração do atributo <table summary> utilizado em
+tabelas extensas com um resumo da mesma.Definido semântico pelo fato de depender da
+opinião do desenvolvedor, visto que tabelas extensas podem ser consideradas de
+diversos tamanhos
+\end{itemize}
+
+\subsection*{Recomendação 3.10 Associar células de dados às células de conteúdo}
+
+\begin{itemize}
+\item  \textbf{RSin 21:} Para toda tabela deverá ser declaro o
+elemento <th> e <td> definindo um cabeçalho e as células da tabela. Deve-se ainda utilizar a tag
+<thead> e <tbody> definindo o conteúdo do cabeçalho e especificar o corpo da
+tabela e ainda a tag <tfoot> para o conteúdo do rodapé da tabela
+\end{itemize}   
+
+\subsection*{Recomendação 3.11 Garantir a leitura e compreensão das informações} 
+
+\begin{itemize}
+\item  \textbf{RSem 17:} Para todo texto existente na página web o mesmo deve
+ser de fácil leitura e compreensão, não exigindo do usuário um nível de instrução muito
+avançado
+\end{itemize} 
+
+\subsection*{Recomendação 3.12 Disponibilizar uma explicação para siglas,
+abreviaturas e palavras incomun}
+
+\begin{itemize}
+\item  \textbf{RSem 18:} Para toda sigla, abreviatura ou palavra ambígua
+existente na página, deve-se fornecer a sua forma e explicação completa
+\end{itemize}
+
+\subsection*{Recomendação 4.1 Oferecer contraste mínimo entre plano de fundo e
+primeiro plano}
+
+\begin{itemize}
+\item  \textbf{RSem 19:} Para toda página web deve-se fornecer cores de primeiro
+e segundo plano suficientemente contrastantes
+\end{itemize}
+
+\subsection*{Recomendação 4.2 Não utilizar apenas cor ou outras características
+sensoriais para diferenciar elementos}
+
+\begin{itemize}
+\item  \textbf{RSem 20:} Para toda página web devem-se ser fornecidas outras
+opções além de cores ou características sensoriais para diferenciar elementos
+\end{itemize}
+
+\subsection*{Recomendação 4.3 Permitir redimensionamento sem perda de
+funcionalidade}
+
+\begin{itemize}
+\item  \textbf{RSem 21:} Para toda página web quando redimensionado para até
+200\% em qualquer tela de qualquer dispositivo e resolução não deverá haver sobreposição
+de conteúdo, assim como deve continuar sendo legível e funcional
+\end{itemize}
+
+\subsection*{Recomendação 4.4 Possibilitar que o elemento com foco seja
+visualmente evidente}
+
+\begin{itemize}
+\item  \textbf{RSin 22:} Para todo HTML com links <a href> deverá estar
+associado um CSS a:focus a:hover para que o mesmo tenha um foco diferenciado do restante do
+texto
+\end{itemize}
+
+\subsection*{Recomendação 5.1 Fornecer alternativa para vídeo}
+
+\begin{itemize}
+\item  \textbf{RSem 22:} Para toda página que contenha vídeos deverá ser
+fornecido efeitos sonoros ou textuais para entendimento dos usuários Regra Sintática: Para
+toda página em HTML 5 que contenha vídeo deverá ser utilizado o elemento <video>
+que dispõe das principais funcionalidades de controle: play, pause e stop
+\end{itemize}  
+
+\subsection*{Recomendação 5.2 Fornecer alternativa para áudio }
+
+\begin{itemize}
+\item  \textbf{RSem 23:} Para toda página que contenha áudio gravado, deverá ser
+fornecido alternativa em texto e alternativa em libras para entendimento dos
+usuários
+\end{itemize}
+
+\subsection*{Recomendação 5.3 Oferecer audiodescrição para vídeo pré-gravado}
+
+\begin{itemize}
+\item  \textbf{RSem 24:}Para toda página deverá ser fornecido a audiodescrição
+para os conteúdos visuais que não possuem faixas de áudio
+\end{itemize}
+
+%\subsection*{Recomendação 5.4 Fornecer controle de áudio para som} 
+%(não classificada)
+
+%\subsection*{Recomendação 5.5 Fornecer controle de animação}  
+%(não classificada)
+
+\subsection*{Recomendação 6.1 Fornecer alternativa em texto para os botões da
+imagem de formulários}
+
+\begin{itemize}
+\item  \textbf{RSin 23:} Para todo botão do tipo imagem <input
+type=``image''> deverá ser fornecida a descrição do mesmo através do atributo <alt>
+\end{itemize}
+
+\begin{itemize}
+\item  \textbf{RSem 25:} Para todo botão do tipo imagem deverá ser analisado o
+texto a ser inserido na descrição do mesmo
+\end{itemize}
+
+\subsection*{Recomendação 6.2 Associar etiquetas aos seus campos}
+
+\begin{itemize}
+\item  \textbf{RSin 24:} Para toda tag <label> deverá ter a propriedade
+for=``name'' onde ``name'' corresponde a um <input>
+\end{itemize}
+
+\subsection*{Recomendação 6.3 Estabelecer uma ordem lógica de navegação}
+
+\begin{itemize}
+\item  \textbf{RSem 26:} Para toda página os elementos de formulário devem estar
+distribuídos corretamente mantendo uma lógica de navegação. Formulários devem
+ser codificados primeiro e depois organizados visualmente via CSS
+\end{itemize}
+
+
+\subsection*{Recomendação 6.4 Não provocar automaticamente alteração no contexto}
+
+\begin{itemize}
+\item  \textbf{RSin 25:} Para toda tag <botton> deverá ser utilizada submit
+\end{itemize}
+
+\subsection*{Recomendação 6.5 Fornecer instruções para entrada de dados}
+
+\begin{itemize}
+\item  \textbf{RSin 26:} Para todos os campos obrigatórios na tag <input> deverá
+ser adicionado o atributo `` required''
+\end{itemize}
+
+\begin{itemize}
+\item  \textbf{RSin 27:} Para todos os campos que necessitarem de ajuda, tal
+como uma descrição deverá ser adicionado a propriedade ``placeholder'' na tag <input>
+\end{itemize}
+
+\begin{itemize}
+\item  \textbf{RSem 27:} Conteúdo descrito como dica na propriedade
+``placeholder''
+\end{itemize}
+
+\subsection*{Recomendação 6.6 Identificar e descrever erros de entrada de dados
+e confirmar o envio das informações}
+ 
+\begin{itemize}
+\item  \textbf{RSin 28:} Para todo atributo type do elemento <input> deverá ser
+definido um valor
+\end{itemize}
+
+\subsection*{Recomendação 6.7 Agrupar campos de formulário}
+
+\begin{itemize}
+\item  \textbf{RSin 29:} Para todo elemento <select> deverá ser
+utilizado o elemento <optgroup> para agrupar itens de seleção
+\end{itemize}
+
+\begin{itemize}
+\item  \textbf{RSem 28:} Definir o texto correspondente para o elemento
+<legend>
+\end{itemize}
+
+\begin{itemize}
+\item  \textbf{RSem 29:} Para todo elemento <select deverá ser utilizado o
+elemento <optgroup> pois o mesmo agrupa itens das listas de seleção
+\end{itemize}
+
+%\subsection*{Recomendação 6.8 Fornecer estratégias de segurança específicas ao
+%invés de CAPTCHA} (não classificada)
+
+%\input{tabelas/tabRegras.tex}
+
+%A Tabela~\ref{tabRegras} apresenta o número de regras geradas através da
+% análise das recomendações do documento E-MAG.
+
 
 %\newpage
    

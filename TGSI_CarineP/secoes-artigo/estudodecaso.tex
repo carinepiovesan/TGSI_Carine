@@ -1,28 +1,32 @@
 \section{Estudo de Caso }
 \label{sec:estudodecaso}
 
-Com o objetivo de validar o processo de classificação proposto por este
-trabalho, foi aplicado um estudo de caso onde foram analisadas as páginas
-iniciais de 6 sites ligados ao governo brasileiro, visto que há leis que regem a
-acessibilidade em portais públicos brasileiros, a fim de que toda a população
-tenha acesso às informações neles disponibilizados independentemente de suas
-habilidades ou limitações físicas.
+Com o objetivo de validar o processo de classificação proposto, foi realizado um
+estudo de caso onde foram analisadas as páginas iniciais de 6 sites ligados ao
+governo brasileiro. A escolha de páginas de esfera pública se deve ao
+fato da existência de leis que regem a acessibilidade em portais
+públicos brasileiros, a fim de que toda a população tenha acesso às informações
+neles disponibilizados independentemente de suas habilidades ou limitações
+físicas. A Lei de Acesso a informação determina que todas as
+informações produzidas pelo poder público são públicas, e devem estar acessíveis a todos os
+cidadãos, exceto informações pessoais e legalmente sigilosas. As páginas
+iniciais analisadas são de âmbito federal, estadual e municipal, a fim de
+explorar o quanto estes três poderes públicos fazem a utilização da
+acessibilidade em seus websites para que sejam possíveis todos os seus usuários
+ter o acesso as informações neles disponibilizados.
 
-Pelo fato de a Lei de Acesso a informação determinar que todas as informações
-produzidas pelo poder público são públicas, e devem estar acessíveis a todos os
-cidadãos, exceto informações pessoais e legalmente sigilosas, as páginas
-iniciais analisadas são de âmbito federal, estadual e municipal. A escolha
-destas páginas deve-se ao fato de explorar o quanto estes três poderes públicos
-fazem a utilização da acessibilidade em seus websites para que sejam possíveis
-todos os seus usuários ter o acesso as informações neles disponibilizados.
+A Tabela~\ref{tablink} apresenta as páginas governamentais brasileiras
+que foram utilizadas para a aplicação deste estudo de caso.
+ 
+  
+\input{tabelas/tablink.tex}
+
 
 Atualmente várias ferramentas realizam a validação da linguagem de marcação,
 identificando problemas relacionados à sintaxe HTML e CSS, atividade esta que
-fica difícil de realizar manualmente depois que as páginas já estão codificadas.
-
-
-A ferramenta utilizada para análise destas páginas foi uma ferramenta
-disponibilizada pela W3C, a \emph{Markup Validation
+fica difícil de realizar manualmente depois que as páginas já estão
+codificadas.A ferramenta utilizada para análise destas páginas foi uma
+ferramenta disponibilizada pela W3C, a \emph{Markup Validation
 Service}\footnote{https://validator.w3.org/}. Esta ferramenta realiza um
 processo de verificação e validação de marcação da linguagem de páginas web
 (HTML, XHTML, SMIL, MathML), seguindo as recomendações  de acessibilidade
@@ -31,20 +35,17 @@ verificação de acessibilidade que fazem através do E-MAG  a análise de
 acessibilidade web e a não utilização das mesmas na validação do processo se
 deve ao fato de que atualmente nenhuma das duas esta em funcionamento.
  
-A Tabela~\ref{tablink} apresenta as páginas governamentais brasileiras
-que foram utilizadas para a aplicação deste estudo de caso:
  
-  
-\input{tabelas/tablink.tex}
-
-
-Após a verificação automática das páginas utilizando a ferramenta \emph{Markup
-Validation Service}, realizou-se também uma análise manual do código fonte da
-página inicial destas páginas, onde foi possível observar que vários erros de
-acessibilidade encontrados manualmente passaram despercebidos pela ferramenta
-como pode ser visto na Tabela~\ref{tabcasodeuso}.O fato da ferramenta não
+ A Tabela~\ref{tabcasodeuso}, apresenta os resultados obtidos através da
+ verificação automática das páginas escolhidas utilizando a ferramenta
+ \emph{Markup Validation Service}. A Tabela~\ref{tabcasodeuso} também apresenta
+ os resultados de uma análise manual do código fonte destas páginas, onde foi
+ possível observar que vários erros de acessibilidade encontrados manualmente
+ passaram despercebidos pela ferramenta. O fato da ferramenta não
 abranger algumas das recomendações estabelecidas pela W3C ocorre em razão da
 capacidade limitada das regras que podem ser testadas automaticamente por esse software.
+
+\input{tabelas/tabcasodeuso}
 
 A partir do resultado das análises automática e manual e identificados os erros
 de acessibilidade, os mesmos foram divididos em duas categorias: sintáticos e
@@ -55,14 +56,10 @@ necessitam de testes manuais, visto que erros sintáticos são de tratamento mais
 simples, pois tratam das propriedades livres da linguagem, por exemplo, a
 verificação gramatical de programas.
 
-\input{tabelas/tabcasodeuso}
 
-Com a utilização desta ferramenta foi possível observar que novas regras
-existentes no documento E-MAG poderiam ser adicionadas à ferramenta, assim como
-novas regras não existentes do documento E-MAG poderiam ser adicionadas a ele.
-Alguns dos exemplos que podem ser visualizados na
-Tabela~\ref{tabregrasadicionar}
-
+A Tabela~\ref{tabregrasadicionar} apresenta algumas das regras existentes no
+documento E-MAG poderiam ser adicionadas à ferramenta, assim como novas regras
+não existentes do documento E-MAG poderiam ser adicionadas a ele.
 
 \input{tabelas/tabregrasadicionar}
 
